@@ -958,6 +958,8 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 .ajaira-bg .overlay{
     background: rgba(0, 0, 0,70%);
@@ -1087,4 +1089,78 @@ img{
    text-align: center;
    line-height: 50px;
    font-size: 27px;
+}
+
+.main_footer{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 2.5rem;
+}
+
+.maicro_footer{
+    color: #ffc155;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.footer_first_content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer_2nd_content h4,
+ .footer_3rd_content h4, 
+ .footer_4rt_content h4,
+ .footer_5th_content h4{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    color: #0596ac;
+}
+
+.footer_2nd_content ul li,
+ .footer_3rd_content ul li, 
+ .footer_4rt_content ul li,
+ .footer_5th_content ul li {
+    margin-top: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(166, 167, 166)707;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer_5th_content_angkor{
+    display: flex;
+}
+
+.footer_5th_content_angkor i{
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.last_footer_bg{
+    background: #ffeec8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.last_footer_h6{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(166, 167, 166)707;
+}
+
+.last_footer_h6 i{
+    color: red;
 }
